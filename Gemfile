@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap-generators'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -40,6 +41,14 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'guard-bundler'
+  gem 'guard-migrate'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'shoulda-matchers'
+  gem 'quiet_assets'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
